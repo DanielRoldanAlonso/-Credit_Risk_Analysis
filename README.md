@@ -5,31 +5,37 @@ In this project the team applied machine learning to solve a credit card risk. C
 
 ## Results
 ### Naive Random Oversampling
+![naive](Images/naive.PNG)
 - Balance accuracy score was 0.6438627638488825
 - Precesion score was 0.01 high risk, 1 low risk, 0.99 average/total
 - Recall score was 0.69 high risk, 0.59 low risk, 0.6 average/total
 
 ### SMOTE Oversampling
+![smote](Images/smote.PNG)
 - Balance accuracy score was 0.6628910844779521
 - Precesion score was 0.01 high risk, 1 low risk, 0.99 average/total
 - Recall score was 0.63 high risk, 0.69 low risk, 0.60 average/total
 
 ### Undersampling
+![udnersampling](Images/undersampling.PNG)
 - Balance accuracy score was 0.5442661782548694
 - Precesion score was 0.01 high risk, 1 low risk, 0.99 average/total
 - Recall score was 0.69 high risk, 0.40 low risk, 0.4 average/total
 
 ### Combination (Over and Under) Sampling
+![combination](Images/combination.PNG)
 - Balance accuracy score was 0.6386694328927748
 - Precesion score was 0.01 high risk, 1 low risk, 0.99 average/total
 - Recall score was 0.70 high risk, 0.57 low risk, 0.58 average/total
 
 ### Balanced Random Forest Classifier
+![brf](Images/brf.PNG)
 - Balance accuracy score was 0.7887512850910909
 - Precesion score was 0.01 high risk, 0 low risk, 0 average/total
 - Recall score was 1 high risk, 0 low risk, 0.01 average/total
 
 ### Easy Ensemble AdaBoost Classifier
+![easy](Images/easy.PNG)
 - Balance accuracy score was 0.931601605553446
 - Precesion score was 0.09 high risk, 1 low risk, 0.99 average/total
 - Recall score was 0.92 high risk, 0.94 low risk, 0.94 average/total
